@@ -1,0 +1,145 @@
+getgenv().Ethnilsy = {
+    ["Loaded"] = {
+        ["Enabled"] = true,
+        ["LicenseKey"] = "KEYHERE",
+    },
+    ["CameraAim"] = {
+        ["Enabled"] = true,
+        ["CamPart"] = "Head",
+        ["Prediction"] = 0.1481,
+        ["Smoothness"] = 0.19,
+        ["ShakeAmount"] = 0,
+        ["AirPrediction"] = 0.1415911,
+        ["AutoPrediction"] = false,
+        ["AntiGroundShots"] = false,
+        ["JumpOffSet"] = 0.22
+    },
+    ["Settings"] = {
+        ["Key"] = Enum.KeyCode.C,
+        ["ControllerKey"] = Enum.KeyCode.DPadUp
+    },
+    ["FOV"] = {
+        ["Radius"] = 2,
+        ["Visible"] = false
+    },
+    ["Silent"] = {
+        ["Enabled"] = false,
+        ["Visible"] = true,
+        ["Mode"] = "Index",
+        ["SilentPart"] = "UpperTorso",
+        ["Prediction"] = 0.1201,
+        ["AirPrediction"] = 0.52,
+        ["Resolver"] = false,
+        ["AntiGroundShots"] = false,
+        ["JumpOffSet"] = 0.12
+    },
+    ["TargetAim"] = {
+        ["Enabled"] = true,
+        ["TargetPart"]= "UpperTorso",
+        ["Prediction"] = 0.12,
+        ["AirPrediction"] = 0.11111,
+        ["UseHitChance"] = true,
+        ["HitChance"] = 100,
+        ["JumpOffSet"] = 0.2,
+        ["Settings"] = {
+            ["Dot"] = true,
+            ["Material"] = Enum.Material.ForceField,
+            ["Shape"] = Enum.PartType.Block,
+            ["Color"] = Color3.fromRGB(255, 255, 255),
+            ["Size"] = Vector3.new(9.8, 9.8, 9.8)
+        },
+    },
+    ["HitBoxExpander"] = {
+        ["Enabled"] = false,
+        ["Size"] = 20,
+        ["Transparency"] = 0.17,
+        ["Color"] = Color3.fromRGB(255, 255, 255)
+    },
+    ["Offsets"] = {
+        ["Enabled"] = true,
+        ["JumpOffSet"] = -1.5,
+        ["FallOffSet"] = -1.5
+    },
+    ["JumpDirection"] = {
+        ["Enabled"] = false,
+        ["X"] = 0,
+        ["Y"] = 0,
+        ["Z"] = 0
+    },
+    ["ExtrasensoryPerception"] = {
+        ["Enabled"] = true,
+        ["HealthBar"] = false,
+        ["Skeleton"] = false,
+        ["Trace"] = false,
+        ["Box"] = false
+    },
+    ["Misc"] = {
+        ["Resolver"] = false,
+        ["AntiGroundShots"] = false,
+        ["AntiDelay"] = false,
+        ["AutoShoot"] = false
+    },
+    ["RapidShoot"] = {
+        ["Enabled"] = false,
+        ["Delay"] = 0.01
+    },
+    ["Texture"] = {
+        ["Enabled"] = false,
+        ["Material"] = Enum.Material.Brick,
+        ["UseColor"] = true,
+        ["Color"] = Color3.fromRGB(0, 0, 0)
+    },
+    ["CFrame"] = {
+        ["Amount"] = 4,
+    },
+    ["LineTrail"] = {
+        ["Enabled"] = false,
+        ["Color"] = Color3.fromRGB(0, 0, 0),
+        ["Material"] = "ForceField",
+        ["Speed"] = 1,
+        ["Width"] = 0.1,
+        ["TransStart"] = 0,
+        ["TransEnd"] = 5,
+        ["MinLength"] = 0.1
+    },
+    ["BallTrail"] = {
+        ["Enabled"] = false,
+        ["Size"] = 10,
+        ["Color"] = Color3.fromRGB(0, 0, 0),
+        ["Material"] = "ForceField",
+        ["Forever"] = false,
+        ["Speed"] = 1,
+        ["TransEnd"] = 5
+    },
+    ["AutoAir"] = {
+        ["Enabled"] = false,
+        ["Delay"] = 0
+    },
+    ["BunnyHop"] = {
+        ["Enabled"] = false,
+        ["Wait"] = 0.1
+    },
+    ["HitSound"] = {
+        ["Enabled"] = false,
+        ["Sound"] = "Rust",
+        ["Volume"] = 50
+    },
+    ["SelfCham"] = {
+        ["Enabled"] = false,
+        ["ForceFieldCham"] = true,
+        ["Color1"] = Color3.fromRGB(255, 255, 255),
+        ["Color2"] = Color3.fromRGB(255, 255, 255)
+    },
+    Check = {
+        ["KoCheck"] = false,
+        ["WallCheck"] = false
+    },
+    ["Easing"] = {
+        ["EasingStyle"] = "Quad",
+        ["EasingDirection"] = "InOut"
+    },
+    ["Setting"] = {
+        ["Button"] = true,
+        ["Tool"] = false
+   }
+}
